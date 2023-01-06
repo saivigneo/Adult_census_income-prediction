@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <form action='/predict' method="POST">
+            age: <input type='float' name='age'><br>
+            workclass: <input type='float' name='workclass'><br>
+            fnlwgt: <input type='float' name='fnlwgt'><br>
+            education: <input type='float' name='education'><br>
+            educational-num: <input type='float' name='educational-num'><br>
+            marital-status: <input type='float' name='marital-status'><br>
+            occupation: <input type='float' name='occupation'><br>
+            relationship: <input type='float' name='relationship'><br>
+            race: <input type='float' name='race'><br>
+            gender: <input type='float' name='gender'><br>
+            capital-gain: <input type='float' name='capital-gain'><br>										
+            capital-loss: <input type='float' name='capital-loss'><br>
+            hours-per-week: <input type='float' name='hours-per-week'><br>
+            native-country: <input type='float' name='native-country'><br>
+            Class: {{result}} <br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
